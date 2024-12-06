@@ -4,6 +4,16 @@
 
 }
 
+.btn {
+    background-color: #e9c91c;
+    border-radius: 10px;
+    height: 40px;
+    width: 200px;
+    margin-top: 2em;
+    border: none;
+    font-size: 14px;
+}
+
 /*HEADER style*/
 
 header {
@@ -42,7 +52,10 @@ header > li > a > ul:hover {
     display: flex;
     background-color: aliceblue;
     height: 100vh;
-    padding: 0 10em;
+}
+
+.primeira > div {
+    margin: 4em;
 }
 
 .primeira > div > h3,h1,p {
@@ -59,6 +72,7 @@ header > li > a > ul:hover {
 
 .primeira > div > p {
     font-size: 13px;
+    margin-top: 2em;
 }
 
 .primeira > div > img {
