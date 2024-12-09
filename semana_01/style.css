@@ -164,3 +164,54 @@ footer > div > li > ul {
 footer > h4 {
     color:#e9c91c;
 }
+
+@media only screen and (max-width: 1300px) {
+    
+    .terceira > div { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .terceira > div > div {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media only screen and (max-width: 1080px) {
+    .primeira {
+        flex-direction: column;
+        height: auto;
+    }
+
+
+}
+
+@media only screen and (max-width: 930px) {
+    .primeira {
+        align-items: center;
+    }
+
+    .primeira > div {
+        margin: 10px 0;
+    }
+
+    .segunda-img-infos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .segunda-img-infos > div > img {
+        width: 200px;
+        height: auto;
+        margin: 1em;
+    }
+
+    .terceira > div { 
+        margin: 0;
+    }
+}
