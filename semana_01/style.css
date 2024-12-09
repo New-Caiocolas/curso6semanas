@@ -14,6 +14,13 @@
     font-size: 14px;
 }
 
+.btn:hover {
+    background-color: rgb(32, 32, 32);
+    color: #e9c91c;
+    transition: 500ms;
+    cursor: pointer;
+}
+
 /*HEADER style*/
 
 header {
@@ -51,7 +58,7 @@ header > li > a > ul:hover {
 .primeira {
     display: flex;
     background-color: aliceblue;
-    height: 100vh;
+    height: 110vh;
 }
 
 .primeira > div {
@@ -78,4 +85,78 @@ header > li > a > ul:hover {
 .primeira > div > img {
     width: 648px;
     height: auto;
+}
+
+/*SEGUNDA SECTION style*/
+
+.segunda {
+    height: auto;
+    background-color: black;
+    padding: 4em 0;
+}
+
+.segunda > div > h1 {
+    display: flex;
+    justify-content: flex-end;
+    color: #e9c91c;
+    font-size: 72px;
+
+}
+
+.segunda-img-infos {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.segunda-img-infos > div {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+/*TERCEIRA SECTION style*/
+
+.terceira {
+    display: flex;
+    height: 100vh;
+    
+}
+
+.terceira > div { 
+    display: flex;
+    background-color: rgb(216, 216, 216);
+    margin: 3em;
+}
+
+.terceira > div > div > h1 {
+    color: #e9c91c;
+    font-size: 62px;
+}
+
+/*FOOTER style*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50vh;
+    background-color: black;
+    padding: 1em 2em;
+}
+
+footer > div {
+    display: flex;
+}
+
+footer > div > li {
+    margin: 10px;
+}
+
+footer > div > li > ul {
+    color: white;
+}
+
+footer > h4 {
+    color:#e9c91c;
 }
