@@ -57,8 +57,8 @@ header > li > a > ul:hover {
 
 .primeira {
     display: flex;
-    background-color: aliceblue;
-    height: 110vh;
+    background-color: white;
+    height: 90vh;
 }
 
 .primeira > div {
@@ -90,6 +90,9 @@ header > li > a > ul:hover {
 /*SEGUNDA SECTION style*/
 
 .segunda {
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
     height: auto;
     background-color: black;
     padding: 4em 0;
@@ -98,6 +101,7 @@ header > li > a > ul:hover {
 .segunda > div > h1 {
     display: flex;
     justify-content: flex-end;
+    padding-right: 2em;
     color: #e9c91c;
     font-size: 72px;
 
