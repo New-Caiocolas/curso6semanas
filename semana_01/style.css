@@ -6,7 +6,7 @@
 
 .btn {
     background-color: #e9c91c;
-    border-radius: 10px;
+    border-radius: 5px;
     height: 40px;
     width: 200px;
     margin-top: 2em;
@@ -130,6 +130,7 @@ header > li > a > ul:hover {
 .terceira > div { 
     display: flex;
     background-color: rgb(216, 216, 216);
+    box-shadow: 10px 10px 10px #00000018;
     margin: 3em;
 }
 
