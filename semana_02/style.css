@@ -32,13 +32,23 @@ header > img {
 
 header > ul {
     display: flex;
-    list-style-type: none
+    list-style-type: none;
 }
 
-header > ul > li {
+header > ul > a {
+    text-decoration: none;
+}
+
+header > ul > a > li {
     margin: 0 1em;
     font-size: 29px;
     color: aliceblue;
+}
+
+header > ul > a > li:hover {
+    opacity: 0.8;
+    transition: 500ms;
+    cursor: pointer;
 }
 
 /* SEARCH DIV Style */
@@ -407,7 +417,131 @@ header > div > div > img {
 
 /* OITAVA SECTION Style */
 
+.oitava {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 1175px;
+}
+
+.veterinarios {
+    width: 361px;
+    height: 628px;
+    background-color: #ffffff;
+    box-shadow: 6px 10.595px 25.5px rgba(61, 61, 61, 0.1);
+
+}
+
+.veterinarios > img {
+    width: 361px;
+    height: 351px;
+}
+
+.veterinarios > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 270px;
+    padding: 0 13px;
+    
+}
+
+.veterinarios > div > h1 {
+    font-size: 25px;
+    color: #313243;
+    font-weight: 600;
+}
+
+.veterinarios > div > p { 
+    font-size: 17px;
+    color: #313243;
+    font-weight: 400;
+}
+
+.veterinarios > div > h2 {
+    font-size: 21px;
+    color: #00bec9;
+    font-weight: 500;
+}
+
+
 /* END MAIN Style */
 
 /* START FOOTER Style */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 654px;
+    background-color: #343434;
+}
+
+footer > div > ul > h1{
+    font-size: 38px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+footer > div > ul > li{
+    list-style-type: none;
+    font-size: 25px;
+    line-height: 44px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+footer > div > h1 {
+    font-size: 38px;
+    line-height: 8px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: right;
+    margin-bottom: 1em;
+}
+
+footer > div > p {
+    font-size: 25px;
+    line-height: 33px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: right;
+}
+
+.footer-div { 
+    display: flex;
+    width: 530px;
+    height: 90px;
+    margin: 3.5em 0;
+}
+
+.footer-div > div {
+    background-color: #daac00;
+    width: 75%;
+    height: 90px;
+}
+
+.footer-div > button {
+    border: none;
+    background-color: #00bec9;
+    width: 25%;
+    height: 90px;
+}
+
+.footer-div > button > img {
+
+    justify-content: center;
+    width: 50px;
+    height: auto;
+}
+
+.redes {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.redes > img {
+    width: 44px;
+    height: 44px;
+    margin: 0 10px;
+}
 /* END FOOTER Style */
