@@ -322,6 +322,91 @@ header > div > div > img {
     margin-top: 1em;
 }
 
+/* SEXTA SECTION Style */
+
+.sexta {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 1070px;
+}
+
+.funcionarios-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.funcionarios {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.funcionarios > img {
+    width: 361px;
+    height: 351px;
+    margin-bottom: 2em;
+}
+
+.funcionarios > h1 {
+    font-size: 29px;
+    color: #313243;
+    font-weight: 700;
+}
+
+.funcionarios > h2 {
+    font-size: 25px;
+    color: #313243;
+    font-weight: 400;
+}
+
+.funcionarios > div {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.funcionarios > div > img {
+    width: 35px;
+    height: 35px;
+    background-color: #fcc302;
+    border-radius: 50%;
+    margin: 0 6px;
+}
+
+/* SETIMA SECTION Style */
+
+.setima {
+
+    background-image: url(assets/imgs/backsection7.png);
+}
+
+.back-setima {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 575px;
+    background-color: rgba(252,195,2,0.8392156862745098);
+}
+
+.setima-div > img{
+
+}
+
+.setima-div > h2 {
+    font-size: 42px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.setima-div > h1 {
+    font-size: 38px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+/* OITAVA SECTION Style */
+
 /* END MAIN Style */
 
 /* START FOOTER Style */
